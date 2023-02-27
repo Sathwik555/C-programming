@@ -1,0 +1,16 @@
+#include <stdio.h>
+main()
+{
+	int a[7]={16,18,27,16,23,21,19},b=0,c;
+	printf("Enter The Element to Search:");
+	scanf("%d",&c);
+	while(a[b]!='0')
+	{
+		if(a[b]==c)
+		{
+			printf("The Element %d is in %d position",c,b+1);
+			break;
+		}
+		b+=1;
+	}
+}
