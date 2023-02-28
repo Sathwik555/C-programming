@@ -20,4 +20,5 @@ main()
 	printf("Enter the Fourth Denominaion Notes:");
 	scanf("%d",&h);
 	printf("Total Available Balance In Atm:%d",(a*e)+(b*f)+(c*g)+(d*h));
+	printf("Thanku");
 }
